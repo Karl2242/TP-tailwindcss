@@ -1,70 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="output.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
 
-  <title>DevFoxie | News homepage</title>
+    <title>DevFoxie | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="flex p-4 justify-between items-center">
+        <img class="w-2/12" src="assets/images/logo.svg" alt="" />
 
-<header>
+        <svg
+          class="block sm:block md:hidden"
+          width="40"
+          height="17"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g fill="#00001A" fill-rule="evenodd">
+            <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+            <path d="M0 0h40v3H0z" />
+          </g>
+        </svg>
 
-<div class="">
-  Home
-  New
-  Popular
-  Trending
-  Categories
+        <ol class="sm:hidden hidden text-neutral-grayish-blue gap-2 md:flex">
+          <a href="#"> <li>Home</li> </a>
+          <a href=""> <li>New</li> </a>
+          <a href=""> <li>Popular</li> </a>
+          <a href=""> <li>Trending</li> </a>
+          <a href=""> <li>Categories</li> </a>
+        </ol>
+      </div>
+    </header>
+
+    <section>
+
+      <img class="p-4 w-[100%]" src="assets/images/image-web-3-mobile.jpg" alt="" />
+
+
+
+<div class="md:flex">
+
+      <div class="flex flex-col justify-center p-4 gap-5">
+        <h1 class="text-5xl font-bold text-neutral-very-dark-blue">
+          The Bright Future of Web 3.0?
+        </h1>
+        <div class=" md:flex md:flex_col md:w-[50%]">
+        <p class="font-inter text-neutral-dark-grayish-blue">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+
+        <a
+          class="bg-primary-red p-3 w-[12rem] text-[14px] font-bold tracking-[4px] text-neutral-off-white text-center"
+          href=""
+          >READ MORE</a>
 </div>
 
-  </header>
+          </div>
+   </div>
+    </section>
 
-  <img src="assets/images/image-web-3-mobile.jpg" alt="">
+    <section>
+      <div class="flex flex-col p-3">
+        <div
+          class="w-100 bg-neutral-very-dark-blue p-[1rem] flex flex-col gap-7"
+        >
+          <!-- Grande carde   -->
+          <p class="text-primary-orange font-bold font-inter text-4xl">New</p>
 
+          <div class="flex flex-col gap-5">
+            <h2 class="text-neutral-off-white font-bold font-inter text-2xl">
+              Hydrogen VS Electric Cars
+            </h2>
+            <p class="text-neutral-grayish-blue">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+            <hr />
 
-  <h1 class="text-blue-700 text-6xl font-bold">The Bright Future of Web 3.0?</h1>
+            <h2 class="text-neutral-off-white font-bold font-inter text-2xl">
+              The Downsides of AI Artistry
+            </h2>
+            <p class="text-neutral-grayish-blue">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+            <hr />
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+            <h2 class="text-neutral-off-white font-bold font-inter text-2xl">
+              Is VC Funding Drying Up?
+            </h2>
+            <p class="text-neutral-grayish-blue">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  Read more
+    <section>
 
-  New 
+      <div class="flex flex-col gap-3">
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+      <div class="flex p-3 gap-5">
+        <div class="flex">
+          <img
+            class="w-[10rem]"
+            src="assets/images/image-retro-pcs.jpg"
+            alt=""
+          />
+        </div>
+        <div class="flex flex-col">
+          <p class="font-inter text-neutral-grayish-blue font-bold text-3xl">01 </p>
+<h3 class="font-bold text-neutral-very-dark-blue font-inter"> Reviving Retro PCs</h3>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+          <p class="font-inter text-neutral-grayish-blue"> What happens when old PCs are given modern
+            upgrades?
+          </p>
+        </div>
+      </div>
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+      <div class="flex p-3 gap-5">
+        <div class="flex">
+          <img
+            class="w-[8rem] sm:w-[10rem]"
+            src="assets/images/image-top-laptops.jpg"
+            alt=""
+          />
+        </div>
+        <div class="flex flex-col">
+          <p class="font-inter text-neutral-grayish-blue font-bold text-3xl">02 </p>
+<h3 class="font-bold text-neutral-very-dark-blue font-inter"> Top 10 Laptops of 2022</h3>
 
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
+          <p class="font-inter text-neutral-grayish-blue">Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
 
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
+      <div class="flex p-3 gap-5">
+        <div class="flex">
+          <img
+            class="w-[13rem]"
+            src="assets/images/image-gaming-growth.jpg"
+            alt=""
+          />
+        </div>
+        <div class="flex flex-col">
+          <p class="font-inter text-neutral-grayish-blue font-bold text-3xl">03 </p>
+<h3 class="font-bold text-neutral-very-dark-blue font-inter"> The Growth of Gaming</h3>
 
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+          <p class="font-inter text-neutral-grayish-blue">The Growth of Gaming How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+
+</div>
+
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. Coded by
+      <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>
