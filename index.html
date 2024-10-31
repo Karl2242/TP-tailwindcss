@@ -26,10 +26,11 @@
       }
     </style>
   </head>
-  <body class="p-4">
+
+  <body class="p-4 xl:p-[7rem]">
     <header>
-      <div class="flex p-4 justify-between items-center">
-        <img class="w-2/12 md:w-[8%]" src="assets/images/logo.svg" alt="" />
+      <div class="flex p-4 justify-between items-center lg:pb-10">
+        <img class="w-2/12 md:w-[8%] xl:w-[6%]" src="assets/images/logo.svg" alt="" />
 
         <svg
           class="block sm:block md:hidden"
@@ -43,30 +44,41 @@
           </g>
         </svg>
 
-        <ol class="sm:hidden hidden text-neutral-grayish-blue gap-2 md:flex">
-          <a href="#"> <li>Home</li> </a>
-          <a href=""> <li>New</li> </a>
-          <a href=""> <li>Popular</li> </a>
-          <a href=""> <li>Trending</li> </a>
-          <a href=""> <li>Categories</li> </a>
+        <ol class="sm:hidden hidden text-neutral-grayish-blue gap-6 md:flex">
+          <a class="hover:text-primary-orange" href="#"> <li>Home</li> </a>
+          <a class="hover:text-primary-orange" href=""> <li>New</li> </a>
+          <a class="hover:text-primary-orange" href=""> <li>Popular</li> </a>
+          <a class="hover:text-primary-orange" href=""> <li>Trending</li> </a>
+          <a class="hover:text-primary-orange" href=""> <li>Categories</li> </a>
         </ol>
       </div>
     </header>
 
+
+<div class="xl:flex xl:gap-5">
+  <div class="xl:w-[80%]">
     <section>
+
+
 
       <img class=" w-[100%] md:hidden" src="assets/images/image-web-3-mobile.jpg" alt="" />
 
+<div>
+
+<div>
+
       <img class=" w-[100%] hidden md:block" src="assets/images/image-web-3-desktop.jpg" alt="">
 
+</div>
 
+<div>
 
 <div class="md:flex">
 
-      <div class="flex flex-col md:flex-row md:justify-between justify-center p-4 gap-5">
+      <div class="flex flex-col md:flex-row md:justify-between justify-center p-4 gap-5 lg:items-center">
 
         <div class="md:w-[40%]">
-        <h1 class="text-5xl font-extrabold text-neutral-very-dark-blue">
+        <h1 class="text-5xl font-extrabold text-neutral-very-dark-blue xl:text-[3rem]">
           The Bright Future of Web 3.0?
         </h1>
 </div>
@@ -78,7 +90,7 @@
         </p>
 
         <a
-          class="bg-primary-red p-3 w-[12rem] text-[14px] font-bold tracking-[4px] text-neutral-off-white text-center"
+          class="bg-primary-red hover:bg-neutral-very-dark-blue p-3 w-[12rem] text-[14px] font-bold tracking-[4px] text-neutral-off-white text-center"
           href=""
           >READ MORE</a>
 </div>
@@ -86,13 +98,20 @@
           </div>
    </div>
 
-   
-    </section>
+   </div>
 
+
+</div> 
+
+
+    </section>
+</div>
+
+<div class="xl:w-[40%]">
     <section>
       <div class="flex flex-col">
         <div
-          class="w-100 bg-neutral-very-dark-blue p-[1rem] flex flex-col gap-7"
+          class="w-100 bg-neutral-very-dark-blue p-[1rem] xl:p-[1rem] flex flex-col gap-7"
         >
           <!-- Grande carde   -->
           <p class="text-primary-orange font-bold font-inter text-4xl">New</p>
@@ -126,12 +145,15 @@
         </div>
       </div>
     </section>
+</div>
 
+</div>
+    
     <section>
 
-      <div class="flex flex-col gap-3 lg:flex-row pt-4">
+      <div class="flex flex-col gap-3 lg:flex-row pt-4 xl:pt-10">
 
-      <div class="flex p-3 gap-5">
+      <div class="flex p-3 gap-5 group">
         <div class="flex">
           <img
             class="w-[10rem] lg:w-[100%]"
@@ -141,7 +163,7 @@
         </div>
         <div class="flex flex-col">
           <p class="font-inter text-neutral-grayish-blue font-bold text-3xl">01 </p>
-<h3 class="font-bold text-neutral-very-dark-blue font-inter"> Reviving Retro PCs</h3>
+<a href=""><h3 class="font-bold text-neutral-very-dark-blue font-inter group-hover:text-primary-red"> Reviving Retro PCs</h3></a>
 
           <p class="font-inter text-neutral-grayish-blue"> What happens when old PCs are given modern
             upgrades?
@@ -149,7 +171,7 @@
         </div>
       </div>
 
-      <div class="flex p-3 gap-5">
+      <div class="flex p-3 gap-5 group">
         <div class="flex">
           <img
             class="w-[8rem] sm:w-[10rem] lg:w-[100%]"
@@ -159,14 +181,14 @@
         </div>
         <div class="flex flex-col">
           <p class="font-inter text-neutral-grayish-blue font-bold text-3xl">02 </p>
-<h3 class="font-bold text-neutral-very-dark-blue font-inter"> Top 10 Laptops of 2022</h3>
+<a href=""><h3 class="font-bold text-neutral-very-dark-blue font-inter group-hover:text-primary-red"> Top 10 Laptops of 2022</h3></a>
 
           <p class="font-inter text-neutral-grayish-blue">Our best picks for various needs and budgets.
           </p>
         </div>
       </div>
 
-      <div class="flex p-3 gap-5">
+      <div class="flex p-3 gap-5 group">
         <div class="flex">
           <img
             class="w-[13rem] md:w-[10rem] lg:w-[100%]"
@@ -176,7 +198,7 @@
         </div>
         <div class="flex flex-col">
           <p class="font-inter text-neutral-grayish-blue font-bold text-3xl">03 </p>
-<h3 class="font-bold text-neutral-very-dark-blue font-inter"> The Growth of Gaming</h3>
+<a href=""><h3 class="font-bold text-neutral-very-dark-blue font-inter group-hover:text-primary-red"> The Growth of Gaming</h3></a>
 
           <p class="font-inter text-neutral-grayish-blue">The Growth of Gaming How the pandemic has sparked fresh opportunities.</p>
         </div>
@@ -187,9 +209,9 @@
     </section>
 
     <div class="attribution">
-      Challenge by
-      <a href="https://www.dev-foxie.com" target="_blank">DevFoxie</a>. Coded by
-      <a href="#">Your Name Here</a>.
+      Challenge by Jeremy le goat
+      <a href="https://www.dev-foxie.com" target="_blank">JEREMY LE GOAT</a>. Coded by
+      <a href="#">KARL CHIKHOUN FULLSTACKDEV</a>.
     </div>
   </body>
 </html>
