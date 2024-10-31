@@ -590,42 +590,6 @@ video {
   width: 8rem;
 }
 
-.w-0 {
-  width: 0px;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[0\] {
-  width: 0;
-}
-
-.w-\[5\] {
-  width: 5;
-}
-
-.w-\[50\] {
-  width: 50;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[10\] {
-  width: 10;
-}
-
-.w-\[100\] {
-  width: 100;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -650,16 +614,16 @@ video {
   gap: 0.75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-7 {
   gap: 1.75rem;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .bg-neutral-very-dark-blue {
@@ -682,6 +646,22 @@ video {
 
 .p-\[1rem\] {
   padding: 1rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-9 {
+  padding-top: 2.25rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-center {
@@ -772,10 +752,6 @@ video {
     display: block;
   }
 
-  .md\:inline-block {
-    display: inline-block;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -784,52 +760,56 @@ video {
     display: none;
   }
 
-  .md\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .md\:w-\[0\%\] {
-    width: 0%;
+  .md\:w-\[10rem\] {
+    width: 10rem;
   }
 
   .md\:w-\[40\%\] {
     width: 40%;
   }
 
-  .md\:w-\[30\%\] {
-    width: 30%;
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 
-  .md\:w-\[3\%\] {
-    width: 3%;
+  .md\:w-0 {
+    width: 0px;
   }
 
-  .md\:w-\[\%\] {
-    width: %;
+  .md\:w-1 {
+    width: 0.25rem;
   }
 
-  .md\:w-\[4\%\] {
-    width: 4%;
+  .md\:w-10 {
+    width: 2.5rem;
   }
 
   .md\:w-\[\] {
     width: ;
   }
 
-  .md\:w-\[1\] {
-    width: 1;
-  }
-
   .md\:w-\[10\] {
     width: 10;
   }
 
-  .md\:w-\[10r\] {
-    width: 10r;
+  .md\:w-\[10\%\] {
+    width: 10%;
   }
 
-  .md\:w-\[10rem\] {
-    width: 10rem;
+  .md\:w-\[1\%\] {
+    width: 1%;
+  }
+
+  .md\:w-\[\%\] {
+    width: %;
+  }
+
+  .md\:w-\[_\%\] {
+    width: %;
+  }
+
+  .md\:w-\[8\%\] {
+    width: 8%;
   }
 
   .md\:flex-row {
@@ -838,6 +818,40 @@ video {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[1\] {
+    width: 1;
+  }
+
+  .lg\:w-\[10\] {
+    width: 10;
+  }
+
+  .lg\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .lg\:w-\[100\%\] {
+    width: 100%;
+  }
+
+  .lg\:w-\[100\] {
+    width: 100;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }
 
