@@ -55,17 +55,22 @@
 
     <section>
 
-      <img class="p-4 w-[100%]" src="assets/images/image-web-3-mobile.jpg" alt="" />
+      <img class="p-4 w-[100%] md:hidden" src="assets/images/image-web-3-mobile.jpg" alt="" />
+
+      <img class="p-4 w-[100%] hidden md:block" src="assets/images/image-web-3-desktop.jpg" alt="">
 
 
 
 <div class="md:flex">
 
-      <div class="flex flex-col justify-center p-4 gap-5">
-        <h1 class="text-5xl font-bold text-neutral-very-dark-blue">
+      <div class="flex flex-col md:flex-row md:justify-between justify-center p-4 gap-5">
+
+        <div class="md:w-[40%]">
+        <h1 class="text-5xl font-extrabold text-neutral-very-dark-blue">
           The Bright Future of Web 3.0?
         </h1>
-        <div class=" md:flex md:flex_col md:w-[50%]">
+</div>
+        <div class="flex flex-col md:w-[50%] gap-4">
         <p class="font-inter text-neutral-dark-grayish-blue">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
@@ -80,6 +85,8 @@
 
           </div>
    </div>
+
+   
     </section>
 
     <section>
@@ -162,7 +169,7 @@
       <div class="flex p-3 gap-5">
         <div class="flex">
           <img
-            class="w-[13rem]"
+            class="w-[13rem] md:w-[10rem]"
             src="assets/images/image-gaming-growth.jpg"
             alt=""
           />

@@ -570,68 +570,60 @@ video {
   width: 16.666667%;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
-.w-\[12rem\] {
-  width: 12rem;
-}
-
-.w-\[15rem\] {
-  width: 15rem;
-}
-
-.w-\[15\] {
-  width: 15;
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[10rem\] {
   width: 10rem;
 }
 
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[3rem\] {
-  width: 3rem;
-}
-
-.w-\[8rem\] {
-  width: 8rem;
-}
-
-.w-\[7rem\] {
-  width: 7rem;
-}
-
-.w-\[6rem\] {
-  width: 6rem;
+.w-\[12rem\] {
+  width: 12rem;
 }
 
 .w-\[13rem\] {
   width: 13rem;
 }
 
-.w-\[100\%\] {
-  width: 100%;
+.w-\[8rem\] {
+  width: 8rem;
+}
+
+.w-0 {
+  width: 0px;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[0\] {
+  width: 0;
+}
+
+.w-\[5\] {
+  width: 5;
+}
+
+.w-\[50\] {
+  width: 50;
 }
 
 .w-\[50\%\] {
   width: 50%;
 }
 
-.w-\[50\] {
-  width: 50;
+.w-\[10\] {
+  width: 10;
+}
+
+.w-\[100\] {
+  width: 100;
 }
 
 .flex-col {
@@ -654,40 +646,20 @@ video {
   gap: 0.5rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-7 {
   gap: 1.75rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
-.border {
-  border-width: 1px;
-}
-
-.border-r {
-  border-right-width: 1px;
-}
-
-.border-r-4 {
-  border-right-width: 4px;
+.gap-4 {
+  gap: 1rem;
 }
 
 .bg-neutral-very-dark-blue {
@@ -708,44 +680,8 @@ video {
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
-.p-8 {
-  padding: 2rem;
-}
-
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[1\] {
-  padding: 1;
-}
-
-.p-\[2\] {
-  padding: 2;
-}
-
-.p-\[2rem\] {
-  padding: 2rem;
-}
-
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-\[1rem\] {
   padding: 1rem;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
@@ -756,18 +692,9 @@ video {
   font-family: Inter, sans-serif;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {
@@ -780,18 +707,21 @@ video {
   line-height: 2.5rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .tracking-\[4px\] {
@@ -801,6 +731,11 @@ video {
 .text-neutral-dark-grayish-blue {
   --tw-text-opacity: 1;
   color: hsl(236 13% 42% / var(--tw-text-opacity));
+}
+
+.text-neutral-grayish-blue {
+  --tw-text-opacity: 1;
+  color: hsl(233 8% 79% / var(--tw-text-opacity));
 }
 
 .text-neutral-off-white {
@@ -818,16 +753,6 @@ video {
   color: hsl(35 77% 62% / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-neutral-grayish-blue {
-  --tw-text-opacity: 1;
-  color: hsl(233 8% 79% / var(--tw-text-opacity));
-}
-
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
@@ -837,20 +762,8 @@ video {
     display: none;
   }
 
-  .sm\:w-\[\] {
-    width: ;
-  }
-
-  .sm\:w-\[12rem\] {
-    width: 12rem;
-  }
-
   .sm\:w-\[10rem\] {
     width: 10rem;
-  }
-
-  .sm\:w-\[11rem\] {
-    width: 11rem;
   }
 }
 
@@ -863,10 +776,6 @@ video {
     display: inline-block;
   }
 
-  .md\:inline {
-    display: inline;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -877,6 +786,54 @@ video {
 
   .md\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .md\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .md\:w-\[3\%\] {
+    width: 3%;
+  }
+
+  .md\:w-\[\%\] {
+    width: %;
+  }
+
+  .md\:w-\[4\%\] {
+    width: 4%;
+  }
+
+  .md\:w-\[\] {
+    width: ;
+  }
+
+  .md\:w-\[1\] {
+    width: 1;
+  }
+
+  .md\:w-\[10\] {
+    width: 10;
+  }
+
+  .md\:w-\[10r\] {
+    width: 10r;
+  }
+
+  .md\:w-\[10rem\] {
+    width: 10rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:justify-between {
